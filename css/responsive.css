@@ -1,0 +1,425 @@
+
+
+
+/*Default Layout: 992px.  */
+
+
+
+
+/* Tablet Layout: 768px.  */
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+/* HEADER */
+.header_nav ul.navbar-nav li a {
+  font-size: 12px;
+  padding: 8px 5px 13px;
+}
+.header_nav ul.navbar-nav li a{
+    padding: 8px 4px 13px;
+}
+/*****Rennserie******/
+.rennserie_btn .btn-default.btn-lg {
+  margin: 0 0 0 9.5%;
+}
+
+/******Termine********/
+.termine_post_wrp1,.termine_post_wrp2 {
+	padding:0 15px;
+}
+/******UnserePartner********/
+.unserepartner_wrp .col-md-2.unserepartner_logo {
+  float: left;
+  width: 25%;
+}
+/*****FLEX SLIDER******/
+.flexslider .slides > li {
+  //margin: 0 27px 0 0;
+  width: 200px !important;
+}
+.flex-direction-nav .flex-prev {
+  left: -50px;
+}
+.flex-direction-nav .flex-next {
+  right: -50px;
+}
+
+/********************Blogpost page***************************/
+.letzte_post_txt {
+  margin: 20px 0 0;
+  width: 100%;
+}
+.letzte_post > img {
+  width: 87px;
+}
+.blogpost_content .col-md-12 {
+  float: left;
+  width: 100%;
+}
+/********VIDEOS page*********/
+.videos_content{width:682px;}
+.videos_content .vid{
+	width:680px;
+	height:383px;
+}
+/***********APR page*************/
+.apr_txt > p {
+  padding: 0 0 0 20px;
+}
+/***********SEND page*************/
+.send_content_left {
+  padding-left: 7%;
+}
+.send_content_right {
+  padding-left: 9%;
+}
+/*********PERFORMANCE page***********/
+.perfonmance_content p{
+	padding: 0 20px 50px;
+}
+/************ERGEBNISSE****************/
+.ergebnisse_content_left {
+  padding-left: 7%;
+}
+.ergebnisse_content_right {
+  padding-left: 9%;
+}
+/**********Kontakt-Impressum*************/
+.kontakt_content_left {
+  padding-left: 15px;
+}
+.kontakt_content_right {
+  padding-left: 15px;
+}
+
+
+}
+
+
+/* Mobile Layout: 320px.  */
+
+@media only screen and (max-width:767px) {
+
+/*scrollUp*/
+body{
+	position:relative;
+}
+#scrollUp {
+    background: url("../images/scrollup_icon_sm.jpg") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: 236px;
+    height: 46px;
+    position: absolute !important;
+    right: 15px;
+    width: 46px;
+}
+.blog_post_wrp, .blog_wrp, .album_gallery_wrp, .image_gallery_wrp, .videos_wrp, .historie_wrp,.apr_wrp ,.send_wrp,.perfonmance_wrp,.ergebnisse_wrp,.kontakt_wrp,.main_wrapper{
+  padding-bottom: 18%;
+}
+
+/*****Main menu for Mobile*****/
+header .header_nav {
+  background-image: none;
+}
+.header_mob_top.hidden-md.hidden-sm.hidden-lg {
+	background: url("../images/header_menu_bg.png") repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+}
+.bg_black {
+  background: none repeat scroll 0 0 #2D2E30;
+  padding: 18px 0;
+  width: 100%;
+}
+.apr_logo {
+  margin: -36px 0 0;
+  width: 100%;
+}
+.apr_logo .img-responsive_ {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.header_nav ul.navbar-nav li a {
+  color: #2D2D2D;
+  text-align: center;
+}
+.header_nav ul.navbar-nav li a:hover {
+  background: none repeat scroll 0 0 #EE7202;
+  color: #FFFFFF;
+}
+.navbar-inverse {
+  background-color: #FFFFFF;
+  background-image: none;
+}
+.navbar-toggle {
+  background-color: #333333;
+
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: rgba(0, 0, 0, 0);
+  margin-bottom: 5%;
+}
+.nav.navbar-nav > li,.header_nav ul.navbar-nav li {
+  margin: 0 auto;
+  width: 60%;
+}
+.social_net_black {
+  margin: 0 auto;
+  width: 130px;
+}
+.social_net_black a {
+  display: block;
+  float: left;
+}
+.social_net_black .youtube{
+	margin: 0 50px 0 0;
+}
+.navbar-collapse {
+  max-height: 630px;
+}
+/*****Rennserie*****/
+.rennserie_btn .btn-default.btn-lg {
+  margin: 0 0 5% 0;
+  padding: 13px;
+  width: 175px;
+}
+.rennserie_btn {
+  margin: 30px auto 50px;
+  width: 176px;
+}
+/******Termine********/
+.termine_post_wrp1,.termine_post_wrp2 {
+	padding-left: 5%;
+}
+.termine_post {
+  width: 100%;
+}
+.termine_post_wrp2 > .termine_post {
+  float: left;
+}
+.termine_post_top .btn-default.btn-lg {
+  clear: both;
+  display: block;
+  float: left;
+  margin: 13px 0 0;
+  padding: 10px 18px 10px 35px;
+  width: 140px;
+}
+.termine_wrp h3.text-center > span {
+  display: block;
+  margin: 8px 0 0;
+}
+/*****FLEX SLIDER******/
+.flexslider .slides > li {
+  //margin: 0 27px 0 0;
+  width: 155px !important;
+}
+.flex-direction-nav .flex-prev {
+  left: -50px;
+}
+.flex-direction-nav .flex-next {
+  right: -50px;
+}
+
+/******UnserePartner********/
+.unserepartner_wrp .col-md-2.unserepartner_logo {
+  float: left;
+  width: 50%;
+}
+.unserepartner_logo img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/*****DasTeam******/
+.dasteam_thumbnail > img {
+  max-width: 80px;
+}
+.dasteam_thumbnail {
+  width: 84px;
+}
+
+/* FOOTER */
+.footer_media > a {
+  float: none;
+  margin: 0;
+}
+.footer_media {
+  margin: 10px 0;
+}
+
+/********************Blogpost page***************************/
+.blogpost_cmnt_txt, .blogpost_cmnt_bottom_txt {
+  margin: 20px 0 0;
+}
+.blogpost_cmnt_admin, .blogpost_cmnt_bottom_admin {
+  margin: 25px 0 0 10px;
+}
+.blogpost_cmnt_admin{
+    font-size: 14px;
+    width: 60%;
+}
+.admin_img{
+  width: 20%;
+  max-width:75px;
+}
+.blogpost_rightbar {
+	padding-bottom:15%;
+}
+.blogpost_rightbar h4 {
+  margin-left: 17px;
+}
+.blogpost_content h2{
+  font-size: 26px;
+}
+.blogpost_form textarea {
+  width: 90%;
+}
+.blogpost_content .col-md-12 {
+  float: left;
+  width: 100%;
+}
+.avatar.pull-left{width:27%;}
+.avatar.pull-left > img {
+  max-width: 86px;
+  width:100%;
+}
+.blogpost_cmnt_admin, .blogpost_cmnt_bottom_admin {
+  margin: 10px 0 0 10px;
+  width: 68%;
+}
+/******BLOG PAGE********/
+.blog_content > p {
+  display: none;
+}
+.blog_content .img-responsive {
+  /* max-width: 308px; */
+}
+/********VIDEOS page*********/
+.videos_content {width:272px;}
+.videos_content .vid{
+	width:270px;
+	height:152px;
+}
+/********HISTORIE page*********/
+.historie_img > img {
+  float: left !important;
+}
+.historie_img{
+	margin-top:20px;
+	padding-left:40px;	
+}
+.historie_content{
+	margin-top:20px;
+	padding-left:40px;
+}
+.historie_content>h2{
+	color:#EE7202;
+}
+/***********APR page*************/
+.apr_addrs > address{
+	float:left !important;
+}
+.apr_addrs{padding-left: 35px;}
+.apr_addrs,.apr_txt{
+	margin-top:20px;
+}
+.apr_txt > p {
+  padding: 0 10px 0 20px;
+}
+
+/***********SEND page*************/
+.send_content_left,.send_content_right  {
+  padding-left: 40px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+/*********PERFORMANCE page***********/
+.perfonmance_content p{
+	padding: 0 10px 50px;
+}
+/************ERGEBNISSE****************/
+.ergebnisse_content_left,.ergebnisse_content_right {
+  padding-left: 40px;
+}
+.ergebnisse_txt .nav.navbar-nav > li {
+  float: left;
+  margin: 0;
+  width: auto;
+}
+.ergebnisse_txt .nav.navbar-nav a {
+  padding: 0 10px;
+}
+.ergebnisse_txt .nav.navbar-nav {
+  width: 285px;
+}
+/**********Kontakt-Impressum*************/
+.kontakt_content_left,.kontakt_content_right {
+  padding-left: 40px;
+  margin-top:30px;
+  margin-bottom:40px;
+}
+.kontakt_h3{
+  font-size: 22px;	
+}
+/****Rennstrecken (FLEX-SLIDER) Slider*****/
+.rennstrecken_slider .col-md-12 {
+  padding: 0 50px;
+}
+.slick-next {
+  right: -44px;
+}
+.slick-prev{
+  left: -44px;
+}
+
+}
+
+
+/* Wide Mobile Layout: 480px.  */
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+/*scrollUp*/
+#scrollUp {
+    bottom: 220px;
+}
+
+/*****DasTeam******/
+.dasteam_thumbnail > img {
+  max-width: 100%;
+}
+.dasteam_thumbnail {
+  width: 115px;
+}
+
+/********************Blogpost page***************************/
+.blogpost_cmnt_txt, .blogpost_cmnt_bottom_txt {
+  margin: 20px 0 0;
+}
+.blogpost_cmnt_admin, .blogpost_cmnt_bottom_admin {
+  margin: 25px 0 0 25px;
+}
+.blogpost_cmnt_admin{
+    font-size: 16px;
+    width: 66%;
+}
+.admin_img{
+  width: 25%;
+  max-width:86px;  
+}
+.avatar.pull-left{width:19%;}
+.avatar.pull-left > img {
+  max-width: 86px;
+}
+.blogpost_cmnt_admin, .blogpost_cmnt_bottom_admin {
+  margin: 26px 0 0 10px;
+  width: 75%;
+}
+
+/********VIDEOS page*********/
+.videos_content {width:422px;}
+.videos_content .vid{
+	width:420px;
+	height:236px;
+}
+
+}
+
